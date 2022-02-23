@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Response recieved successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-23T15:41:41 EST" name="Default suite" finished-at="2022-02-23T15:41:44 EST" duration-ms="3069">
+    <groups>
+    </groups>
+    <test started-at="2022-02-23T15:41:41 EST" name="Default test" finished-at="2022-02-23T15:41:44 EST" duration-ms="3069">
+      <class name="job.scraper.Get_Schema_Validation">
+        <test-method signature="JobsGetAll(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:job.scraper.Get_Schema_Validation@c8c12ac]" started-at="2022-02-23T15:41:42 EST" name="JobsGetAll" data-provider="data_for_get" finished-at="2022-02-23T15:41:44 EST" duration-ms="2132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jobs123.herokuapp.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Jobs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response recieved successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- JobsGetAll -->
+      </class> <!-- job.scraper.Get_Schema_Validation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
